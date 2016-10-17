@@ -17,7 +17,7 @@ public class Tiradas {
 
     Random rnd = new Random();
            
-
+//Metodos
     public ArrayList roll_list(int dados, int caras) {
         ArrayList tirada= new ArrayList();
         int resultado;
