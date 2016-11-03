@@ -69,7 +69,8 @@ public class Tiradas {
         resultado=(int) Math.ceil((float)resultado/(float)dados);
         return resultado;
         }
-        
+        //tira "dados" dados y se queda los "cuantos" mas altos
+        //devuelve una arraylist
         public ArrayList roll_alto(int dados, int caras, int cuantos) {
         ArrayList tirada= new ArrayList();
         int resultado;
